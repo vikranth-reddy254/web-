@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flexItem {
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(13, 22, 200);
+    font-size:x-large;
+    color: #f5efef;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+.item1{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dapper{
+    font-size: xxx-large;
+    font-weight: 700;
+}
+
+.search {
+    border-radius: 12px;
+    border: 1px solid #73AD21;
+    padding: 15px;
+    width: 100px;
+    height: 1px
+}
+
+.menu div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
